@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Validator</title>
+    <link rel="stylesheet" type="text/css" href="validator.css">
+</head>
+<body>
+    <div class="container">
+        <form id="myform">
+        <label for="name">Imię</label>
+        <input type="text" id="name" placeholder="Tomash">
+        <label for="surname">Nazwisko</label>
+        <input type="text" id="surname" placeholder="Novak">
+        <label>Płeć</label><br>
+        <input type="radio" name="płeć" id="male" value="male">Mężczyzna<br>
+        <input type="radio" name="płeć" id="female" value="female">Kobieta<br>
+        <label for="adress">Adres</label>
+        <input type="text" id="adress" placeholder="ul. Polna 1, Warszawa">
+        <label for="phone">Telefon</label>
+        <input type="text" id="phone" placeholder="666805476">
+        <label for="country">Województwo</label>
+        <select id="country">
+            <option disabled selected value="default"></option>
+            <option value="1">Mazowieckie</option>
+            <option value="2">Małopolskie</option>
+            <option value="3">Podkarpackie</option>
+            <option value="4">Sląskie</option>
+        </select>
+        <label for="about">O mnie</label>
+        <textarea id="about" placeholder="About me..."></textarea>
+        <input type="submit">
+        </form>
+    </div>
+
+<script type="text/javascript" src="validator.js"></script>
+</body>
+</html>

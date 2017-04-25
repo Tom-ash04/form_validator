@@ -1,0 +1,6 @@
+input, textarea, select {
+    display: block;
+}
+input[type="radio"] {
+    display: inline;
+}
